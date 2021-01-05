@@ -23,17 +23,18 @@
     font-weight: bold;
 }
 .nav-link{
-    color: rgb(168, 179, 171)!important;    
+    color:  #e7ebf0!important;     
 }
 #nav-bar ul li a:hover{
-    color: #007bff!important;    
+    color: #daf109!important;    
 }
 .navbar
 {
-    background:#fff;
+    background:#132511!important;   ;
 }
 .navbar-togler{
     border: none!important;
+    color: #007bff!important;
 }
 #slider{
     width:100%;
