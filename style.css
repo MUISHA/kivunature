@@ -37,7 +37,7 @@
     color: #007bff!important;
 }
 #slider{
-    width:100%;
+    width:100%;  
 }
 .carousel-caption{
     top: 50%;
@@ -60,13 +60,7 @@
 }
 .about-content {
     padding-top:20px;
-    text-align:justify;
-}
-.skills-bar p{
-    padding-top:6px;
-    font-weight: 600;
-}
-.progress-bar{
+    text-align:jVoir
     border-radius: 16px;
 }
 .progress
@@ -140,12 +134,12 @@ h1::after{
     margin: 20px auto 5px;
 }
 .img-recherches{
-    border-top-left-radius: 50% 50%;
-    border-top-right-radius: 50% 50%;
-    border-bottom-right-radius: 50% 50%;
-    border-bottom-left-radius: 50% 50%;
-    width:210px;
-    height:250px;
+    border-top-left-radius: 100% 100%;
+    border-top-right-radius: 100% 100%;
+    border-bottom-right-radius: 100% 100%;
+    border-bottom-left-radius: 100% 100%;
+    width:280px;
+    height:280px;
 }
 .profile-pic{
     margin-top: 25px;
@@ -215,162 +209,7 @@ h1::after{
     font-family: sans-serif;
     font-size :38px;
 }
-/*----------- price ---------------*/
-#price 
-{
-    padding: 40px 0;
-    background:#efefef;
-}
-.single-price{
-    margin: 10px auto;
-    display: inline;
-    float: left;
-    width:100%;
-    background-color: #fff;
-    transition:0.5s;
 
-}
-.single-price:hover{
-    box-shadow: 0 2px 20px #333;
-}
-.price-head
-{
-    background-color:#2196f3;
-    display: inline;
-    float: left;
-    padding:center;
-    text-align:center;
-    width:100%;
-}
-.price-head h2{
-    color:#fff;
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 5px;
-    padding:5px;
-    text-transform:uppercase;
-}
-.price-head p{
-    font-size: 2px;
-    color:#ccc;
-    font-weight: bold;
-    line-height: 30px;
-}
-#price span{
-    font-size: 15px;
-}
-.price-content{
-    display:inline;
-    float: left;
-    width:100%;
-    padding: 0 15px;
-}
-.price-content ul li{
-    border-bottom: 1px solid #efefef;
-    padding:15px 10px;
-    list-style: none;
-}
-ul li:last-child{
-    border:none;
-}
-.fa-check-circle{
-    color:green;
-    margin-right:10px;
-    font-size: 20px;
-}
-.fa-times-circle{
-    color:red;
-    margin-right:10px;
-    font-size: 20px;
-}
-.price-button
-{
-    display:inline;
-    float: left;
-    padding:15px 15px 30px;
-    text-align:center;
-    width:100%;
-}
-.buy-btn{
-    background-color: #2196f3;
-    border-radius:3px;
-    display: inline-block;
-    font-size: 18px;
-    padding:10px 50px;
-    transition:0.5s;    
-}
-.buy-btn:hover{
-    border-color:1px solid #fff;
-    background-color: #3f51b5;
-}
-a{
-    text-decoration: none!important;
-    color: rgb(252, 249, 249)!important;
-}
-/*----------Testimonianales---------*/
-#testimonials{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-#testimonials .row{
-    margin-top:30px;
-}
-.col-md-4 {
-    margin: 40px auto;
-}
-.user{
-    border-radius:50%;
-    width:120px;
-    height: 120px;
-}
-.profile{
-    padding: 70px 10px 10px;
-    background-color:#efefef;
-}
-.profile img{
-    top: -60px;
-    position: absolute;
-    left: calc(50% - 60px);
-    border: 10px solid #fff;
-}.profile h3 {
-    font-size: 16px;
-    margin-top:15px;
-    color: #007bff;
-}
-#testimonials span {
-    font-size: 12px;
-    color: #333;
-}
-blockquote{
-    font-size: 15px;
-    line-height: 20px; 
-}
-
-blockquote::before
-{
-    content: open-quote;
-    font-size: 50px;
-    color: #007bff;     
-    position: relative;
-    line-height: 10px;
-    bottom: -15px;
-    right: 5px;
-}
-blockquote::after
-{
-    content: open-quote;
-    font-size: 50px;
-    color: #007bff;     
-    position: relative;
-    line-height: 15px;
-    bottom: -10px;
-    left: 5px;
-}
-.profile:hover{
-    box-shadow: 0 0 15px 15px rgb(0,0,0,0.2);
-    cursor: pointer;
-    transition:0.5s;
-}
 /*----------- Get in Touch -------- */
 #contact {
     background: #efefef;
